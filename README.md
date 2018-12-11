@@ -24,7 +24,7 @@ Completed 100000 requests
 Finished 100000 requests
 
 
-Server Software:
+Server Software:        
 Server Hostname:        localhost
 Server Port:            3000
 
@@ -32,31 +32,31 @@ Document Path:          /
 Document Length:        13 bytes
 
 Concurrency Level:      1000
-Time taken for tests:   8.558 seconds
+Time taken for tests:   7.279 seconds
 Complete requests:      100000
 Failed requests:        0
-Total transferred:      21200000 bytes
+Total transferred:      14800000 bytes
 HTML transferred:       1300000 bytes
-Requests per second:    11685.18 [#/sec] (mean)
-Time per request:       85.578 [ms] (mean)
-Time per request:       0.086 [ms] (mean, across all concurrent requests)
-Transfer rate:          2419.20 [Kbytes/sec] received
+Requests per second:    13737.29 [#/sec] (mean)
+Time per request:       72.795 [ms] (mean)
+Time per request:       0.073 [ms] (mean, across all concurrent requests)
+Transfer rate:          1985.47 [Kbytes/sec] received
 
 Connection Times (ms)
               min  mean[+/-sd] median   max
-Connect:        0   52 220.3      2    1035
-Processing:     4   30  36.5     27     866
-Waiting:        3   23  35.7     20     858
-Total:          6   82 237.0     28    1883
+Connect:        0   43 201.6      2    1039
+Processing:     8   25  28.9     23     853
+Waiting:        2   19  28.4     16     844
+Total:         10   69 214.1     24    1874
 
 Percentage of the requests served within a certain time (ms)
-  50%     28
-  66%     31
-  75%     33
-  80%     34
-  90%     38
-  95%    149
-  98%   1056
-  99%   1072
- 100%   1883 (longest request)
- ```
+  50%     24
+  66%     27
+  75%     28
+  80%     29
+  90%     32
+  95%     39
+  98%   1050
+  99%   1059
+ 100%   1874 (longest request)
+```
